@@ -8,11 +8,13 @@ public void getDetails()
         name1="Anand Hospital";
         add=45547777;
         name2="Anand";
+        specialist="Physiotherapist";
         Open="12PM to 4PM";
         id2=22;
         name3="Arul Hospital";
         add1=345444224;
         name4="James";
+        specialist="Psycotherapist";
         open="10AM to 6PM";
     }
 }

@@ -10,10 +10,9 @@ public static void main(String args[])
    Physiotherapist p = new Physiotherapist();
    p.getDetails();
    Doctor n = new Doctor();
-    if(id>=10 && id<=20)
-        p.dis(id);
-   if(id>=20 && id<=30)
-       n.dis1(id);
+   n.getDetails();
+   p.dis(id);
+   n.dis1(id);
     
 }
     
