@@ -33,6 +33,11 @@ public class connectionestablish {
 		String b = "select* from student where id=2";
 		PreparedStatement p = a.prepareStatement(b);
 		ResultSet i = p.executeQuery();
+		while(i.next())
+		{
+			System.out.println(i);
+		}
 		a.close();
+		
 	}
 }
